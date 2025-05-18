@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+}
+body {
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(90deg,purple, rgb(254, 76, 228), rgb(255, 120, 226));
+  }
+input {
+    font-size: 16px;
+    width: 135px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 45px;
+  }
+input::placeholder{/*  текст у полі для введення  */
+    color:black;
+}
+button{
+  width: 140px;
+  height: 25px;
+  line-height: 25px; /* вирівнює текст всередині кнопки по вертикалі, встановивши висоту текстового рядка рівною висоті кнопки */
+  border-radius: 45px;
+  font-size: 11px;
+  text-transform: uppercase; /* перетворює весі літери у кнопці на великі */
+  text-align: center;
+  letter-spacing: 3px; /* відступ між літерами */
+  font-weight: 600; /* ширина тексту, наскільки він жирний */
+  color: black;
+  background: white;
+  transition: 0.3s; /* додає плавний перехід до змін стилю протягом 0.3 секунди */
+} 
+button:hover{
+    background: rgb(254, 76, 228);
+    color: white;
+}
+.message {
+    font-size: 18px;
+    margin-top: 10px;
+  }
